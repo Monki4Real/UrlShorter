@@ -8,7 +8,7 @@ class CreateUrl(BaseModel):
 
 class GetUrl(BaseModel):
     short_code: str
-    original_url: str
+    original_url: HttpUrl
     created_at: datetime  
 
 
